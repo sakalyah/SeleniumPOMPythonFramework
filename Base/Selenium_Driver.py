@@ -117,6 +117,7 @@ class SeleniumDriver():
     def inputtextbyID(self,ID,value):
         try:
             ele = self.waitforElementtoVisible(10,By.ID,ID)
+            ele.clear()
             ele.send_keys(value)
             self.log.info("Entered Successfully "+value)
         except:
