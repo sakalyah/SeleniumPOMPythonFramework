@@ -54,3 +54,14 @@ class Login_page(SeleniumDriver):
 
         result = self.isElementVisible(By.XPATH,"//h3[@data-test='error']")
         return result
+
+    def pagetitle(self):
+        return self.driver.title
+
+    def titlepagevalidation(self):
+
+        if "Swag Labs"  in self.pagetitle():
+            return True
+        else :
+            return False
+        #if "Google"  in self.pagetitle(): To CHeck Failure

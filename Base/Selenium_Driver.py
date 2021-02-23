@@ -1,4 +1,6 @@
-from datetime import *
+import os
+import time
+
 from traceback import print_stack
 
 from selenium import webdriver
@@ -124,3 +126,23 @@ class SeleniumDriver():
             self.log.info("Cannot Send keys to locator " + ID)
             print_stack()
 
+    def takescreenshot(self,resultMessage):
+
+        """
+                Takes screenshot of the current open web page #FrameworkLevel
+                """
+        fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png" #Will create multiple Files
+        screenshotDirectory = "../Screenshots/"
+        relativeFileName = screenshotDirectory + fileName
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory, relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenshotDirectory)
+
+        try:
+            if not os.path.exists(destinationDirectory):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+            self.log.info("Screenshot save to directory: " + destinationFile)
+        except:
+            self.log.error("### Exception Occurred when taking screenshot")
+            print_stack()
