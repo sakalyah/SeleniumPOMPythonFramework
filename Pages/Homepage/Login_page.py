@@ -5,9 +5,10 @@ from selenium.common.exceptions import *
 from Base.Selenium_Driver import SeleniumDriver
 import Utilities.CustomLogger as cl
 import logging
+from  Base.Basepage import BasePage
 
 
-class Login_page(SeleniumDriver):
+class Login_page(BasePage): #Replacing SeleniumDriver class with Basepage class ----> Multi Level Inheritance
     log = cl.customLogger(logging.DEBUG)  # After Logging replced all Print statements to Log statements.
     def __init__(self,driver):
         super().__init__(driver)
@@ -65,3 +66,7 @@ class Login_page(SeleniumDriver):
         else :
             return False
         #if "Google"  in self.pagetitle(): To CHeck Failure
+
+    def verifyLoginTitle(self):
+        #return self.verifyPageTitle("Google") #Inherited from BasePage class -- Explicitly Failed
+        return self.verifyPageTitle("Swag Labs") #Inherited from BasePage class

@@ -20,8 +20,9 @@ class login_tests(unittest.TestCase):
         #self.driver.get(self.baseurl)
 
         self.lp.login("standard_user","secret_sauce")
-        result = self.lp.titlepagevalidation()
-        self.ts.mark(result, "Title Validation Failed")
+        # result = self.lp.titlepagevalidation()
+        result = self.lp.verifyLoginTitle()
+        self.ts.mark(result, "Title Validation")
         # title = self.driver.title
         # # print(title)
         self.driver.implicitly_wait(3)
@@ -39,6 +40,7 @@ class login_tests(unittest.TestCase):
         self.lp.login("standard_user", "secrets_sauce")
         reult = self.lp.login_unsuccess()
         assert reult == True
+        # self.driver.quit()
 
 # a = login_tests()
 # a.test_validlogin()#Do not create Objects and Run
