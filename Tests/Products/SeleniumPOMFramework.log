@@ -1,0 +1,7 @@
+02/26/2021 09:16:13 AM - Login_page - INFO: Waited till Element was Visible
+02/26/2021 09:16:13 AM - Login_page - INFO: Entered Successfully standard_user
+02/26/2021 09:16:13 AM - Login_page - INFO: Waited till Element was Visible
+02/26/2021 09:16:13 AM - Login_page - INFO: Entered Successfully secret_sauce
+02/26/2021 09:16:13 AM - Login_page - INFO: Waited till Element was Visible
+02/26/2021 09:16:13 AM - Login_page - INFO: Clicked Successfully
+02/26/2021 09:16:13 AM - Products - INFO: Element list found with locator: //button[text()='ADD TO CART'] and  locatorType: xpath
