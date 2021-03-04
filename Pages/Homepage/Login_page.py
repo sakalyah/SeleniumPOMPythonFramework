@@ -27,6 +27,8 @@ class Login_page(BasePage): #Replacing SeleniumDriver class with Basepage class 
         self.inputtextbyID("password", pwd)
     def click_login(self):
         #self.loginbtn().click()
+        self.highlightelement(By.ID,"login-button")
+        self.shortteermwait(1)
         self.clickelementbyID("login-button")
 
     def login(self,username,password):
@@ -70,3 +72,14 @@ class Login_page(BasePage): #Replacing SeleniumDriver class with Basepage class 
     def verifyLoginTitle(self):
         #return self.verifyPageTitle("Google") #Inherited from BasePage class -- Explicitly Failed
         return self.verifyPageTitle("Swag Labs") #Inherited from BasePage class
+
+    def logout(self):
+
+        self.clickelementbyID("react-burger-menu-btn")
+        self.shortteermwait(1)
+        self.clickelementbyID("logout_sidebar_link")
+        # self.clickelementbyxpath("//a[text()='Logout']")
+        self.highlightelement(By.ID, "login-button")
+        self.shortteermwait(1)
+        self.log.info("Logged Out Successfully")
+

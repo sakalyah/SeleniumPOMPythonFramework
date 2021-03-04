@@ -96,7 +96,7 @@ class SeleniumDriver():
           ele.click()
           self.log.info("Clicked Successfully")
         except :
-            self.log.info("Cannot CLick the Element By xpath"+xpath)
+            self.log.info("Cannot CLick the Element By xpath "+xpath)
             print_stack()
 
     def clickelementbyID(self,ID):
@@ -454,3 +454,12 @@ class SeleniumDriver():
         except:
             self.log.error("Element :: '" + info + "' state could not be found")
         return enabled
+
+    def shortteermwait(self,timetowait):
+        time.sleep(timetowait)
+
+    def highlightelement(self,By,xpath):
+
+        element = self.getelement2(By,xpath)
+        self.driver.execute_script("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');",element)
+        self.shortteermwait(1)
