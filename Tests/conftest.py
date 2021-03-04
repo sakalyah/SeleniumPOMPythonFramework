@@ -15,9 +15,9 @@ def setUp():
 
 
 @pytest.yield_fixture(scope="class") #scope ="module" if we want totest any module
-def oneTimeSetUp(request,browser):
+def oneTimeSetUp(request):
     print("Running one time setUp")
-    wdf = WebDriverFactory(browser) #browser will be taken from CMD arguments
+    wdf = WebDriverFactory("chrome") #browser will be taken from CMD arguments
     driver = wdf.getWebDriverInstance()
     # if browser == 'firefox':
     #     driver = webdriver.Firefox(executable_path="D:\\PythonProject\\SeleniumProject\\Drivers\\geckodriver")
@@ -38,14 +38,14 @@ def oneTimeSetUp(request,browser):
     yield driver
     print("Running one time tearDown")
 
-def pytest_addoption(parser):
-    parser.addoption("--browser")
-    parser.addoption("--osType", help="Type of operating system")
-
-@pytest.fixture(scope="session")
-def browser(request):
-    return request.config.getoption("--browser")
-
-@pytest.fixture(scope="session")
-def osType(request):
-    return request.config.getoption("--osType")
+# def pytest_addoption(parser):
+#     parser.addoption("--browser")
+#     parser.addoption("--osType", help="Type of operating system")
+#
+# @pytest.fixture(scope="session")
+# def browser(request):
+#     return request.config.getoption("--browser")
+#
+# @pytest.fixture(scope="session")
+# def osType(request):
+#     return request.config.getoption("--osType")
