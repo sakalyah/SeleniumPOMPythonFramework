@@ -461,3 +461,69 @@
 03/04/2021 06:21:31 PM - Login_page - INFO: Clicked Successfully
 03/04/2021 06:21:31 PM - Login_page - INFO: Selector Found
 03/04/2021 06:21:33 PM - Login_page - INFO: Logged Out Successfully
+03/04/2021 08:26:57 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:26:59 PM - Login_page - INFO: Entered Successfully standard_user
+03/04/2021 08:26:59 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:26:59 PM - Login_page - INFO: Entered Successfully secrets_sauce
+03/04/2021 08:26:59 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:01 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:02 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:03 PM - Login_page - INFO: Element is Visible on Page
+03/04/2021 08:27:05 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:05 PM - Login_page - INFO: Entered Successfully locked_out_user
+03/04/2021 08:27:05 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:05 PM - Login_page - INFO: Entered Successfully secrets_sauce
+03/04/2021 08:27:05 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:07 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:07 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:07 PM - Login_page - INFO: Element is Visible on Page
+03/04/2021 08:27:09 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:09 PM - Login_page - INFO: Entered Successfully problem_users
+03/04/2021 08:27:09 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:09 PM - Login_page - INFO: Entered Successfully secret_sauce
+03/04/2021 08:27:09 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:12 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:12 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:12 PM - Login_page - INFO: Element is Visible on Page
+03/04/2021 08:27:14 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:14 PM - Login_page - INFO: Entered Successfully performance_glitch_users
+03/04/2021 08:27:14 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:14 PM - Login_page - INFO: Entered Successfully secret_sauce
+03/04/2021 08:27:14 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:16 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:16 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:16 PM - Login_page - INFO: Element is Visible on Page
+03/04/2021 08:27:18 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:18 PM - Login_page - INFO: Entered Successfully standard_user
+03/04/2021 08:27:18 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:18 PM - Login_page - INFO: Entered Successfully secret_sauce
+03/04/2021 08:27:18 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:20 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:21 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:23 PM - Util - INFO: Actual Text From Application Web UI --> :: Swag Labs
+03/04/2021 08:27:23 PM - Util - INFO: Expected Text From Application Web UI --> :: Swag Labs
+03/04/2021 08:27:23 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+03/04/2021 08:27:23 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title Validation
+03/04/2021 08:27:23 PM - Login_page - INFO: Element is Visible on Page
+03/04/2021 08:27:23 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Unsuccessful
+03/04/2021 08:27:23 PM - TestStatus - INFO: Successful Login ### TEST SUCCESSFUL
+03/04/2021 08:27:23 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:23 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:24 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:24 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:24 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:26 PM - Login_page - INFO: Logged Out Successfully
+03/04/2021 08:27:33 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:33 PM - Login_page - INFO: Entered Successfully performance_glitch_user
+03/04/2021 08:27:33 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:33 PM - Login_page - INFO: Entered Successfully secret_sauce
+03/04/2021 08:27:33 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:35 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:40 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:40 PM - Products - INFO: Element list found with locator: //button[text()='ADD TO CART'] and  locatorType: xpath
+03/04/2021 08:27:47 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:47 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:48 PM - Login_page - INFO: Waited till Element was Visible
+03/04/2021 08:27:48 PM - Login_page - INFO: Clicked Successfully
+03/04/2021 08:27:48 PM - Login_page - INFO: Selector Found
+03/04/2021 08:27:50 PM - Login_page - INFO: Logged Out Successfully
