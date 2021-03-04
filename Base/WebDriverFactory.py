@@ -46,7 +46,7 @@ class WebDriverFactory():
             driver = webdriver.Firefox(executable_path="D:\\PythonProject\\SeleniumProject\\Drivers\\geckodriver")
         elif self.browser == "chrome":
             # Set chrome driver
-            driver = webdriver.Chrome(executable_path="D:\\PythonProject\\SeleniumProject\\Drivers\\chromedriver")
+            driver = webdriver.Chrome(executable_path="chromedriver.exe")
         else:
             driver = webdriver.Chrome(executable_path="D:\\PythonProject\\SeleniumProject\\Drivers\\chromedriver")
         # Setting Driver Implicit Time out for An Element
